@@ -2,6 +2,6 @@
 
 Convert a Riot ID to a PUUID and vice versa.
 
-![alt text](https://cdn.discordapp.com/attachments/1190781449197068409/1190781602800877648/image.png?ex=65a30cc9&is=659097c9&hm=18f964684156a0fd3aaddb62d8d24c7151249c6119df6e7b55d8fd9a63c0654c&)
+![alt text](https://cdn.discordapp.com/attachments/1173858410928816168/1199521072551305317/resolver.png?ex=65c2d80d&is=65b0630d&hm=6589b0ce5f767d9cf4973e3de9e741520ea091244703aeadf01cf0eb43f1f5d6&)
 
 Thanks to @Henrik-3 for the [unofficial-valorant-api](https://github.com/Henrik-3/unofficial-valorant-api)
