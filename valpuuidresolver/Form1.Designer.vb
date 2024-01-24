@@ -26,14 +26,15 @@ Partial Class Form1
         Label1 = New Label()
         TextInput = New TextBox()
         TextOutput = New TextBox()
+        Button2 = New Button()
         SuspendLayout()
         ' 
         ' Button1
         ' 
         Button1.Location = New Point(12, 85)
         Button1.Name = "Button1"
-        Button1.Size = New Size(328, 38)
-        Button1.TabIndex = 0
+        Button1.Size = New Size(160, 32)
+        Button1.TabIndex = 1
         Button1.Text = "Submit"
         Button1.UseVisualStyleBackColor = True
         ' 
@@ -51,7 +52,7 @@ Partial Class Form1
         TextInput.Location = New Point(12, 27)
         TextInput.Name = "TextInput"
         TextInput.Size = New Size(328, 23)
-        TextInput.TabIndex = 2
+        TextInput.TabIndex = 0
         ' 
         ' TextOutput
         ' 
@@ -61,12 +62,22 @@ Partial Class Form1
         TextOutput.Size = New Size(328, 23)
         TextOutput.TabIndex = 3
         ' 
+        ' Button2
+        ' 
+        Button2.Location = New Point(180, 85)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(160, 32)
+        Button2.TabIndex = 2
+        Button2.Text = "Copy"
+        Button2.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AcceptButton = Button1
         AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(352, 141)
+        ClientSize = New Size(352, 126)
+        Controls.Add(Button2)
         Controls.Add(TextOutput)
         Controls.Add(TextInput)
         Controls.Add(Label1)
@@ -86,5 +97,6 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents TextInput As TextBox
     Friend WithEvents TextOutput As TextBox
+    Friend WithEvents Button2 As Button
 
 End Class

@@ -1,6 +1,7 @@
 ﻿Imports System.Net.Http
 Imports Newtonsoft.Json.Linq
 Imports System.Text.RegularExpressions
+Imports System.Threading
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -65,4 +66,13 @@ Public Class Form1
 
         TextOutput.Text = output
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        If TextOutput.Text <> String.Empty Then
+            Clipboard.SetText(TextOutput.Text)
+        Else
+            MessageBox.Show("There is no text to copy.", "Info")
+        End If
+    End Sub
+
 End Class
