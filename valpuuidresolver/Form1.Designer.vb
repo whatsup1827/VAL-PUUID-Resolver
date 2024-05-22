@@ -37,7 +37,7 @@ Partial Class Form1
         Submit.Location = New Point(14, 170)
         Submit.Name = "Submit"
         Submit.Size = New Size(160, 32)
-        Submit.TabIndex = 1
+        Submit.TabIndex = 3
         Submit.Text = "Submit"
         Submit.UseVisualStyleBackColor = True
         ' 
@@ -63,14 +63,14 @@ Partial Class Form1
         TextOutput.Name = "TextOutput"
         TextOutput.ReadOnly = True
         TextOutput.Size = New Size(328, 23)
-        TextOutput.TabIndex = 3
+        TextOutput.TabIndex = 2
         ' 
         ' Copy
         ' 
         Copy.Location = New Point(180, 170)
         Copy.Name = "Copy"
         Copy.Size = New Size(160, 32)
-        Copy.TabIndex = 2
+        Copy.TabIndex = 4
         Copy.Text = "Copy"
         Copy.UseVisualStyleBackColor = True
         ' 
@@ -79,7 +79,7 @@ Partial Class Form1
         ApiKeyInput.Location = New Point(12, 77)
         ApiKeyInput.Name = "ApiKeyInput"
         ApiKeyInput.Size = New Size(328, 23)
-        ApiKeyInput.TabIndex = 4
+        ApiKeyInput.TabIndex = 1
         ' 
         ' Label2
         ' 
